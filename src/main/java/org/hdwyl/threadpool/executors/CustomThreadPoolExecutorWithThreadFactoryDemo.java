@@ -1,15 +1,17 @@
 package org.hdwyl.threadpool.executors;
 
 import java.util.Date;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 自定义线程工厂类
+ * 使用自定义线程工厂类创建线程池
  * <p>
  * Created by wangyanl on 2020/5/14.
  */
-public class CustomThreadFactoryDemo {
+public class CustomThreadPoolExecutorWithThreadFactoryDemo {
 
     static class CustomThread extends Thread {
         private Date creationDate;
@@ -71,7 +73,9 @@ public class CustomThreadFactoryDemo {
 
         @Override
         public Thread newThread(Runnable r) {
+            System.out.println("Creating a CustomThread.");
             CustomThread customThread = new CustomThread(r, prefix + "-" + counter);
+            System.out.printf("Counter is %d now.\n", counter);
             counter++;
             return customThread;
         }
@@ -99,5 +103,11 @@ public class CustomThreadFactoryDemo {
         System.out.printf("Main: Thread information.\n");
         System.out.printf("%s\n", thread);
         System.out.printf("Main: End of the example.\n");
+
+        ExecutorService threadPool = Executors.newCachedThreadPool(customThreadFactory);
+        threadPool.submit(task);
+        threadPool.shutdown();
+        threadPool.awaitTermination(1, TimeUnit.DAYS);
+        System.out.printf("Main: End of the program.\n");
     }
 }
