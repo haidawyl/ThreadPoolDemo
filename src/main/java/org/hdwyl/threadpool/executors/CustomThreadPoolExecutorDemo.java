@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
+ * 创建自定义线程池
+ * <p>
  * Created by wangyanl on 2020/5/14.
  */
 public class CustomThreadPoolExecutorDemo {

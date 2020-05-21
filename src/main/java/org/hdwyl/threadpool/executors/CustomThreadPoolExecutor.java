@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.*;
 
 /**
- * 自定义普通线程池
+ * 自定义线程池
  * <p>
  * Created by wangyanl on 2020/5/14.
  */
