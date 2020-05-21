@@ -24,36 +24,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CustomLockDemo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomLockDemo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.54113925">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
-                <element signature="e#642#643#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#962#963#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
-                <element signature="e#1815#1816#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1923#1924#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#657#658#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1054#1055#0" expanded="true" />
+                <element signature="e#1102#1103#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1830#1831#0" expanded="true" />
+                <element signature="e#1877#1878#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
+                <element signature="e#2003#2004#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomForkJoinWorkerThreadDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomForkJoinWorkerThreadDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomForkJoinWorkerThreadDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54113925">
+            <state vertical-scroll-proportion="0.0">
               <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,8 +101,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomScheduledThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomForkJoinWorkerThreadDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java" />
       </list>
     </option>
   </component>
@@ -1040,12 +1040,12 @@
       <option name="number" value="Default" />
       <updated>1590024439227</updated>
       <workItem from="1590024443291" duration="397000" />
-      <workItem from="1590024940131" duration="18135000" />
+      <workItem from="1590024940131" duration="18157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18532000" />
+    <option name="totallyTimeSpent" value="18554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1117,7 +1117,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java</url>
-          <line>117</line>
+          <line>119</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -1343,37 +1343,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="106" column="9" selection-start-line="106" selection-start-column="9" selection-end-line="106" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-            <element signature="e#1815#1816#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-            <element signature="e#1923#1924#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomForkJoinWorkerThreadDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54113925">
+        <state vertical-scroll-proportion="0.0">
           <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#515#524#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54113925">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1830#1831#0" expanded="true" />
+            <element signature="e#1877#1878#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#2003#2004#0" expanded="true" />
           </folding>
         </state>
       </provider>
