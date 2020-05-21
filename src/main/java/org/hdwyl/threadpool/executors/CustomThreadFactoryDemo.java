@@ -5,6 +5,8 @@ import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 自定义线程工厂类
+ * <p>
  * Created by wangyanl on 2020/5/14.
  */
 public class CustomThreadFactoryDemo {
