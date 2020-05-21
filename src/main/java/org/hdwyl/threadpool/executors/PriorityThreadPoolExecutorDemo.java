@@ -5,6 +5,8 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 自定义带有优先级的线程池
+ * <p>
  * Created by wangyanl on 2020/5/14.
  */
 public class PriorityThreadPoolExecutorDemo {
