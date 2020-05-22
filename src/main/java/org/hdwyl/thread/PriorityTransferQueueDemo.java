@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread;
 
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.PriorityBlockingQueue;

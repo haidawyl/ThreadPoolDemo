@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool.executors;
+package org.hdwyl.thread.pool.custom;
 
 import java.util.ArrayList;
 import java.util.Date;

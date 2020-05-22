@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool.executors;
+package org.hdwyl.thread.pool.custom;
 
 import java.util.Date;
 import java.util.concurrent.*;

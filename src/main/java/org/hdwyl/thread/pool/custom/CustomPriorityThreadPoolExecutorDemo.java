@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool.executors;
+package org.hdwyl.thread.pool.custom;
 
 import java.util.concurrent.PriorityBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;

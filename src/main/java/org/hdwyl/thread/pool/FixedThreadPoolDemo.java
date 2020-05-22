@@ -1,7 +1,7 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread.pool;
 
 
-import org.hdwyl.threadpool.utils.IdGenerator;
+import org.hdwyl.thread.utils.IdGenerator;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

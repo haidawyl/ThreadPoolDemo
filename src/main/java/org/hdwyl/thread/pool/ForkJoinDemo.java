@@ -1,14 +1,14 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread.pool;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
-import java.util.concurrent.*;
+import java.util.concurrent.ForkJoinPool;
+import java.util.concurrent.ForkJoinTask;
+import java.util.concurrent.RecursiveTask;
 
 /**
- * Created by wangyanl on 2020/5/14.
+ * Created by wangyanl on 2020/5/10.
  */
-public class WorkStealingPoolDemo {
+public class ForkJoinDemo {
 
     static Random random = new Random(0);
 
@@ -16,54 +16,7 @@ public class WorkStealingPoolDemo {
         return random.nextInt(10000);
     }
 
-    static Callable<String> callable(String result, long sleepSeconds) {
-        return () -> {
-            TimeUnit.SECONDS.sleep(sleepSeconds);
-            return result;
-        };
-    }
-
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newWorkStealingPool();
-        for (int i = 0; i < 5; i++) {
-            final int timeout = i;
-            executorService.submit(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        TimeUnit.SECONDS.sleep(timeout);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                    System.out.println(timeout + " " + Thread.currentThread().getName());
-                }
-            });
-        }
-
-        List<Callable<String>> callables = Arrays.asList(
-                callable("task1", 3),
-                callable("task2", 1),
-                callable("task3", 2)
-        );
-        try {
-            List<Future<String>> futures = executorService.invokeAll(callables);
-            futures.stream().map(future -> {
-                try {
-                    return future.get();
-                } catch (Exception e) {
-                    throw new IllegalStateException(e);
-                }
-            }).forEach(System.out::println);
-
-            String result = executorService.invokeAny(callables);
-            System.out.println(result);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-
-
         // 创建2000个随机数组成的数组
         long[] array = new long[2000];
         long expectedSum = 0;
@@ -76,7 +29,7 @@ public class WorkStealingPoolDemo {
         // fork/join
         ForkJoinTask<Long> task = new SumTask(array, 0, array.length);
         long startTime = System.currentTimeMillis();
-        Long result = ((ForkJoinPool) executorService).invoke(task);
+        Long result = ForkJoinPool.commonPool().invoke(task);
         long endTime = System.currentTimeMillis();
         System.out.println("Fork/join sum: " + result + " in " + (endTime - startTime) + " ms.");
     }

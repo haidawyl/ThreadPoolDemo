@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread;
 
 import java.util.UUID;
 import java.util.concurrent.ExecutorService;

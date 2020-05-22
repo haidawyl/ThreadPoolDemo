@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool;
+package org.hdwyl.thread.pool;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;

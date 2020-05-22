@@ -1,4 +1,4 @@
-package org.hdwyl.threadpool.utils;
+package org.hdwyl.thread.utils;
 
 import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.atomic.LongAdder;
