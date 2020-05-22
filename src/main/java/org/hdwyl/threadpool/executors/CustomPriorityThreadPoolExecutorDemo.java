@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
  * <p>
  * Created by wangyanl on 2020/5/14.
  */
-public class PriorityThreadPoolExecutorDemo {
+public class CustomPriorityThreadPoolExecutorDemo {
 
     static class PriorityTask implements Runnable, Comparable<PriorityTask> {
 

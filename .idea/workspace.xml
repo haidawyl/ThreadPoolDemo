@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ea32b87-ed74-4c12-aa11-ad072e147edc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutor.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java" afterPath="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/PriorityThreadPoolExecutorDemo.java" afterPath="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomPriorityThreadPoolExecutorDemo.java" />
     </list>
     <ignored path="ThreadPoolDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomThreadPoolExecutorDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomThreadPoolExecutorDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomPriorityThreadPoolExecutorDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomPriorityThreadPoolExecutorDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.044600938">
+              <caret line="7" column="14" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomThreadPoolExecutorWithThreadFactoryDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorWithThreadFactoryDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="19" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -113,7 +132,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/ThreadLocalDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadFactoryDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorWithThreadFactoryDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/PriorityThreadPoolExecutorDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomScheduledThreadPoolDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomForkJoinWorkerThreadDemo.java" />
@@ -121,6 +139,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/PriorityTransferQueueDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/CustomAtomicObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/PriorityThreadPoolExecutorDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomPriorityThreadPoolExecutorDemo.java" />
       </list>
     </option>
   </component>
@@ -1059,12 +1079,12 @@
       <updated>1590024439227</updated>
       <workItem from="1590024443291" duration="397000" />
       <workItem from="1590024940131" duration="18226000" />
-      <workItem from="1590109324972" duration="7675000" />
+      <workItem from="1590109324972" duration="7724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26298000" />
+    <option name="totallyTimeSpent" value="26347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1246,14 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/PriorityThreadPoolExecutorDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33146068">
@@ -1317,13 +1329,6 @@
         <state vertical-scroll-proportion="0.33333334">
           <caret line="712" column="28" selection-start-line="712" selection-start-column="28" selection-end-line="712" selection-end-column="28" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorWithThreadFactoryDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3114754">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1393,8 +1398,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomThreadPoolExecutorWithThreadFactoryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hdwyl/threadpool/executors/CustomPriorityThreadPoolExecutorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.044600938">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
